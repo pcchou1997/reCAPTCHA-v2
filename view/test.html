@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>Name:</div>
+      <input type="text" name="name" id="name" required />
+      <div>Message:</div>
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="5"
+        required
+      ></textarea>
+      <div
+        class="g-recaptcha"
+        data-sitekey="6LcY4gMoAAAAAO8bm06hwBO61v1T8xG_e3bcbGMK"
+      ></div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="/test.js"></script>
+  </body>
+</html>
